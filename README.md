@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Nifty
+
+A quick project to view ERC721 NFT tokens.  Paste in an address and the app scans the etherscan API's (across major chains) for transaction history.
+
+Then it pulls the data from the contracts and displays the NFT's.
+
+
+## Notes
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
