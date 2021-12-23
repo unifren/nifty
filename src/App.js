@@ -4,7 +4,7 @@ import { ethers } from "ethers";
 import ERC721 from "./ERC721";
 import "./App.css";
 
-const ipfs = "https://ipfs.io/ipfs/";
+const ipfs = "https://cloudflare-ipfs.com/ipfs/";
 
 function App() {
   const [state, setState] = useState({ address: "", nfts: [] });
