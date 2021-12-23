@@ -253,13 +253,17 @@ function App() {
           ))}
         </div>
       </div>
-      <div className="p-4 mx-4 mt-12 flex flex-col space-y-5 justify-center items-center text-center">
+      <div className="p-4 mx-4 mt-20 flex flex-col space-y-5 justify-center items-center text-center">
         <h2 className="text-sm text-white">
           Notes: Check the console for progress. If your NFT's aren't loading
           properly they're probably centralised ones blocking CORS or funky
           contracts :)
         </h2>
-        <h2 className="text-sm text-white">Git Hub: </h2>
+        <h2 className="text-sm text-white underline">
+          <a href="https://github.com/unifren/nifty" target="_blank">
+            Git Hub
+          </a>
+        </h2>
       </div>
     </div>
   );
